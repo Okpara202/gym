@@ -22,7 +22,7 @@ export default {
         "primary-300": "#FFA6A3",
         "primary-500": "#FF6B66",
         "secondary-400": "#FFCD58",
-        "midnight": "#FFC132"
+        "secondary-500": "#FFC132"
       },
       backgroundImage: () => ({
         "gradient-yellow-red": "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
