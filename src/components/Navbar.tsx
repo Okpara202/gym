@@ -1,7 +1,7 @@
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+// import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import logo from "../assets/Logo (5).png";
 import NavLink from "./link";
-import useMediaQuery from "./mediaQuery";
+// import useMediaQuery from "./mediaQuery";
 
 
 type Page = {
@@ -14,7 +14,7 @@ function Navbar({ selectedPage, setSelectedPage }: Page) {
 
 
     const flexBetween = "flex items-center justify-between";
-    const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)")
+    // const isAboveMediumScreen = useMediaQuery("(min-width: 1060px)")
 
     return (
         <nav>
