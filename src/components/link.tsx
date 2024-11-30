@@ -1,4 +1,4 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 type Page = {
     page: string;
