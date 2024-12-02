@@ -1,14 +1,14 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
-import logo from "../assets/Logo (5).png";
+import logo from "../../assets/Logo (5).png";
 import NavLink from "./link";
-import useMediaQuery from "./mediaQuery";
+import useMediaQuery from "../mediaQuery";
 import { useState } from "react";
 import ActionButton from "./ActionButton";
 
 
 type Page = {
     selectedPage: string,
-    isTopOfPage : boolean,
+    isTopOfPage: boolean,
     setSelectedPage(value: string): void
 }
 
